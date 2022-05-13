@@ -1,0 +1,18 @@
+<meta charset="utf-8">
+
+<script>
+
+function pulaLinha() {
+
+    document("<br>");
+}
+function mostra(frase) {
+    document.write(frase);
+    pulaLinha();
+}
+var convidados = parseFloat(prompt("Quantos convidos ? "));
+var convidadosVips = parseFloat(prompt("Quantos convidados vips ?"));
+
+mostra("O total de convisdados é " + (convidados + convidadosVips));
+
+</script>

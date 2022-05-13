@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+    var totalFuncionarios = parseInt(prompt("Informr o total de funcionários: "));
+    var repeticao = 1;
+    var totalSalario = 0;
+
+    while(repeticao <= totalFuncionarios) {
+        var salario = parseFloat(prompt("Informe o salário: "));
+        totalSalario = totalSalario + salario;
+        repeticao++;
+    }
+    var mediaSalarial = totalSalario / totalFuncionarios;
+    mostra("A média salarial é de " + mediaSalarial.toFixed(3) + (" reais."));
+
+</script>

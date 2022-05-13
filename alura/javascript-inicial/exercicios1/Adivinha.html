@@ -1,0 +1,34 @@
+<meta charset="utf-8">
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }    
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var numeroOculto = 4;
+    var tentativas = 1;
+
+    while(tentativas <= 3) {
+
+        var chute = parseInt(prompt("Qual é o número oculto ?"));
+
+        if(chute == numeroOculto) {
+
+            mostra("Você acertou, o número oculto é " + numeroOculto);
+            break;
+
+        } else {
+
+            mostra("Você errou!");
+        }
+        
+        tentativas++;
+    }
+    mostra("FIM");
+
+</script>

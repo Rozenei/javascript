@@ -1,0 +1,38 @@
+<meta charset="utf-8">
+
+<script>
+
+var loginCadastrado = "alura";
+var senhaCadastrada = "alura123";
+
+var tentativaAtual = 1;
+var maximoDeTentativas = 3;
+
+// Atenção, abra e feche () "" e {} se não da erro e o programa não roda.
+while(tentativaAtual <= maximoDeTentativas) { // enquanto não exceder o limite 
+    // de tentativas faça isso...
+
+    var loginInformado = prompt("Informe o login: ");
+    var senhaInformada = prompt("Informe a senha: ");
+    
+    if (loginInformado == loginCadastrado && senhaInformada == senhaCadastrada) {
+
+        alert("Bem vindo " + loginInformado);
+
+        tentativaAtual = maximoDeTentativas;
+    } else {
+
+        if (tentativaAtual == maximoDeTentativas) {
+            alert("Login bloqueado por exceso de tentativas ! ");     
+                 
+        }else {
+            alert("Login inválido tente novamente. ");
+                
+        }
+    }
+      
+        tentativaAtual = tentativaAtual + 1; // pode usar tentativaAtual++
+         // o resutado é o mesmo de todo o código da linha 34.
+}    
+
+</script>

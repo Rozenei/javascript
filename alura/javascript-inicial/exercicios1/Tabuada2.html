@@ -1,0 +1,28 @@
+<meta charset="utf-8">
+<script>
+
+function pulaLinha() {
+    document.write("<br>");
+}    
+function mostra(frase) {
+    document.write(frase);
+    pulaLinha();
+}
+
+var multiplicador = 0;
+var tabuadaDo = parseInt(prompt("Quer ver a tabuada de qual número ? " ));
+if (tabuadaDo == 7) {
+while (multiplicador <= 10) {
+    multiplicador++;
+    mostra("7 vezes " + 7 * multiplicador);
+   }
+}else {
+    if(tabuadaDo == 8) {
+        while(multiplicador <= 10) {
+        multiplicador++;
+        mostra(8 * multiplicador);
+        }
+    }
+}
+
+</script>

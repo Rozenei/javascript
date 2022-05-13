@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+
+<script>
+
+function pulaLinha(){
+    document.write("<br><hr><br>");// 2 <br>pula duas linha <hr> coloca uma linha entre as frases
+}
+
+function mostra(frase){
+    document.write("<big>" + frase + "</big>");
+    pulaLinha();
+}
+
+var ano = 2021;
+mostra("Eu tenho " + (ano - 1985) + " anos!");
+mostra("Ela tem " + (ano - 1987) + " anos!");
+mostra("Ele tem " + (ano - 2013) + " anos!");
+
+</script>

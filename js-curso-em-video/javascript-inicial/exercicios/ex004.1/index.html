@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentagem</title>
+</head>
+<body>
+    <h1>Calculando Porcentagem</h1>
+    <button onclick="comdesconto()">Clique aqui para calcular</button>
+    
+</body>
+<script>
+        
+    function comdesconto() {
+        let preco = prompt("Digite o valor atual ?")
+        let porc = prompt("Quantos porcento de desconto?")
+        let valor = (preco * porc) / 100
+        let novo = preco - valor
+        alert(`O valor do desconto é ${valor} R$, valor final com desconto é ${novo} R$`)
+    }
+</script>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando números</title>
+</head>
+<body>
+    <h1>Trabalhando com números</h1>
+    <button onclick="calcula()">Clique aqui para calcular</button>
+    <br> <br>
+    <section id="resultado">
+        <strong>O resultado vem aqui...</strong>
+    </section>
+    
+</body>
+<script>
+     alert("Seja bem vindo!");
+     function calcula() {
+         let numero = prompt("Digite um número:")
+         let dobro = numero * 2
+         let metade = numero / 2
+         let res = document.getElementById ("resultado")
+        res.innerHTML = (`O dobro de ${numero} é ${dobro} e a metade é ${metade}`)
+     }
+</script>
+</html>

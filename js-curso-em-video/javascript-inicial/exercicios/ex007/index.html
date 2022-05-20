@@ -6,7 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculando a média de um aluno</title>
 </head>
+
 <body>
+    <h1>Calculando a média</h1>
+    <button onclick="media()"> <strong>Começar</strong></button>
+    <br><br>
+    <section id="resultado">
+        <stong>O resultado vai aparecer aqui...</stong>
+    </section>
+
+    <script>
+        function media() {
+        let nota1 = prompt("Informe a primera nota ")
+        let nota2 = prompt("Informe a segunda nota ")
+        let nota3 = prompt("Informe a terceira nota ")
+        let nota4 = prompt("Informe a quarta nota ")
+        let totalnotas = nota1 + nota2 + nota3 + nota4 
+        let mediafinal = totalnotas / 4   
+        
+        let res = document.getElementById("resultado")
+        res.innerHTML = `a média do aluno é ${totalnotas}`
+
+        console.log(mediafinal)
+
+    }
+    </script>
+  
     
 </body>
 </html>

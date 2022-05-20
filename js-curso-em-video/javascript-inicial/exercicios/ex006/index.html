@@ -9,18 +9,24 @@
 <body>
     <h1>Somando dois números</h1>
     <button onclick="soma()">Clique aqui para começar</button>
+
+    <br> <br>
+
     <section id="resultado">
         <strong>O resultado vem aqui...</strong>
     </section>
     
+    <script>
+        function soma() {
+            let numero1 = prompt("Digite um número")
+            let numero2 = prompt("Digite outro número para somar")
+            let resultsoma =  numero2 + numero1 // essa linha tem bug
+
+            let res = document.getElementById("resultado")
+            res.innerHTML = `A soma de ${numero1} "e" ${numero2} é ${resultsoma}`;
+        }
+    </script>
+    
 </body>
-<script>
-    function soma() {
-        let numero1 = prompt("Digite um número")
-        let numero2 = prompt("Digite outro número para somar")
-        let resultsoma = numero1 + numero2
-        let res = document.getElementById("resultado")
-        res.innerHTML = `A soma de ${numero1} "e" ${numero2} é ${resultsoma}`;
-    }
-</script>
+
 </html>

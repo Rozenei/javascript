@@ -18,9 +18,9 @@
     
     <script>
         function soma() {
-            let numero1 = prompt("Digite um número")
-            let numero2 = prompt("Digite outro número para somar")
-            let resultsoma =  numero2 + numero1 // essa linha tem bug
+            let numero1 = Number(prompt("Digite um número"))
+            let numero2 = Number(prompt("Digite outro número para somar"))
+            let resultsoma =  numero2 + numero1 
 
             let res = document.getElementById("resultado")
             res.innerHTML = `A soma de ${numero1} "e" ${numero2} é ${resultsoma}`;

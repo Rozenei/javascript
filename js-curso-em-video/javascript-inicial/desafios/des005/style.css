@@ -1,0 +1,15 @@
+
+body {
+    font: 12pt;
+}
+button {
+    font-size: 12pt;
+    color: black;
+    background-color: antiquewhite;
+    font-weight: bold;
+    padding: 16px;
+}
+section {
+    font-size: 12pt;
+    font-weight: bolder;
+}

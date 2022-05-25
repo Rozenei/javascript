@@ -1,0 +1,13 @@
+@chsrset "UTF-8";
+
+body {
+    font: 12pt;
+    padding: 20px;
+}
+button {
+    font: 12pt;
+    color: black;
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.418);
+    padding: 20px;
+}

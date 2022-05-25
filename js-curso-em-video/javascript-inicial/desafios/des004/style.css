@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body {
+    font: 12pt;
+}
+button {
+    color: black;
+    font-weight: bold;
+    font-variant: small-caps;
+    background-color: gray;
+    padding: 20px;
+}

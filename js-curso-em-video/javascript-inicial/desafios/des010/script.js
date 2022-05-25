@@ -20,22 +20,5 @@ function formula() {
     res.innerHTML += `<P> O valor de <mark> X ' </mark> é ${coeficiente1.toFixed(4)}</P>`
     res.innerHTML += `<P> O valor de <mark>X ''</mark> é ${coeficiente2.toFixed(4)}</P>`
 
-
-   
-
-    
-    
-
 }
-    /*
-    if (a < 0) {
-
-        console.log("A equação não possui raizes reais")
-
-    } elsif  { 
-        alert("Para Delta positivo, raizes diferentes ")
-     
-        coeficiente1 = (-b - Math.sqrt(delta) / (2 * a))
-        coeficiente2 = (-b + Math.sqrt(delta) / (2 * a)) 
-    } 
-*/
+    

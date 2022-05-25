@@ -1,0 +1,12 @@
+body {
+    font-size: 12pt;
+}
+button {
+    font-size: 12pt;
+    background-color: rgb(118, 143, 128);
+    padding: 15px;
+    font-weight: bold;
+}
+section {
+    font: Arial;
+}

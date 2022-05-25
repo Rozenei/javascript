@@ -23,11 +23,17 @@
             let res = document.getElementById("resultado")
 
             res.innerHTML = `<P> O seu valor absoluto é <strong>${Math.abs(num)} </strong></P>`// Math.abs() retorna o valo absoluto
+
             res.innerHTML += `<P> A sua parte inteira é  <strong>${Math.trunc(num)}</strong></P>`// Math.trunc() retorna parte inteira
+
             res.innerHTML += `<P> O valor inteiro mais próximo é <strong>${Math.round(num)}</strong></P>`// Math.round() retorna valor inteiro mais próximo
+
             res.innerHTML += `<P> A sua raiz quadrada é <strong>${Math.sqrt(num)}</strong></P>`// Math.() retorna
+
             res.innerHTML += `<P>  A sua raiz cúbica é <strong>${Math.cbrt(num)}</strong></P>`// Math.() retorna
+
             res.innerHTML += `<P> O valor de ${num}<sup>2</sup> <strong>${Math.pow(num,2)}</strong></P>`//<sup>2</sup> para representar ao quadrado, Math.pow() retorna 
+            
             res.innerHTML += `<P> O valor de ${num}<sup>3</sup> <strong>${Math.pow(num,3)}</strong></P>`//<sup>3</sup> para representar ao cubo
         }
     </script>

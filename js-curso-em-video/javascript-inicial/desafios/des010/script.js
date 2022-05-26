@@ -15,10 +15,25 @@ function formula() {
     let res = document.querySelector("section#resultado")
 
     res.innerHTML = `<P> A equação atual é ${a}x<sup>2</sup> + ${b}x + 2 = 0</P>`
+
     res.innerHTML += `<P> O cálculo realizado será &#916; = ${a}<sup>2</sup> + ${b}x + ${c} = 0</P>`
+
     res.innerHTML += `<P> O valor calculado foi <mark> &#916; </mark> = ${delta}</P>`
+
     res.innerHTML += `<P> O valor de <mark> X ' </mark> é ${coeficiente1.toFixed(4)}</P>`
+
     res.innerHTML += `<P> O valor de <mark>X ''</mark> é ${coeficiente2.toFixed(4)}</P>`
 
-}
+
+
+}/*
+if (coeficiente1 < 0) {
+    res.innerHTML += `<P> O valor de <mark> X ' </mark> é ${coeficiente1.toFixed(4)}</P>`
+
+    res.innerHTML += `<P> O valor de <mark>X ''</mark> é ${coeficiente2.toFixed(4)}</P>`
+
+} else {
+
+    res.innerHTML += `<P> Sem raizes reais ${coeficiente2.toFixed(4)}</P>`
+}*/
     

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    font: 12pt;
+}
+
+button {
+    font: 12pt;
+    color: rgb(4, 33, 255);
+    background-color: rgba(85, 127, 127, 0.483);
+    padding: 15px;
+    font-weight: bold;
+}
+section {
+    font: 12pt;
+}
+section > mark {
+    color: green;
+}

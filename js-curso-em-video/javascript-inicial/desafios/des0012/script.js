@@ -8,6 +8,9 @@ let porcerto = (variacao / precoatual) * 100
 
 let res = document.querySelector("section#resultado")
 
+porcetagem
+
+valor é X por cento de Y  =  (100 / X) * Y
 
 if (precoant < precoatual) {
     document.write( "<P> O produto custava R$ " + precoant.toFixed(2) + " e agora custa R$ " + precoatual.toFixed(2) + ".</P>")

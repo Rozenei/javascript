@@ -1,0 +1,13 @@
+
+body {
+    font-family:cursive ;
+}
+button {
+    background-color: rgba(105, 105, 105, 0.524);
+    padding: 15px;
+    font-size: 14pt;
+    font-weight: bold;
+}
+section {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

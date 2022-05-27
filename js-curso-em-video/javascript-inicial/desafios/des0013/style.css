@@ -1,0 +1,32 @@
+
+body {
+    font-size: 12pt;
+}
+button {
+    font-size: 12pt Arial;
+    background-color: rgba(128, 128, 128, 0.508);
+    padding: 15px;
+    font-weight: bold;
+}
+
+section {
+    font-size: 12pt;
+}
+p {
+    font-size: 12;
+}
+p#p1 {
+    font-size: 16;
+}
+mark#m1 {
+    background-color: rgba(255, 0, 0, 0.648);
+    font-weight: bold;
+}
+mark#m2 {
+    background-color: rgba(210, 105, 30, 0.719);
+    font-weight: bold;
+}
+mark#m3 {
+    background-color: rgba(0, 128, 0, 0.694);
+    font-weight: bold;
+}

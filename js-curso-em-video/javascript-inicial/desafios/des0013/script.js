@@ -9,16 +9,17 @@ function situacao() {
 
     let res = document.querySelector("section#resultado")
 
-    res.innerHTML = `<P> Analisando  situação de ${aluno}</P>` 
-    res.innerHTML += `<P> Com as notas ${nota1.toFixed(1)}, ${nota2.toFixed(1)}, ${nota3.toFixed(1)}, e ${nota4.toFixed(1)} a media é ${media.toFixed(1)}. </P>`
+    res.innerHTML = `<P id="p1"> Analisando  situação de<strong> ${aluno}</strong></P>` 
+    res.innerHTML += `<P> Com as notas ${nota1.toFixed(1)}, ${nota2.toFixed(1)}, ${nota3.toFixed(1)}, e ${nota4.toFixed(1)} <strong>a media é ${media.toFixed(1)}</strong>. </P>`
 
     if (media < 3) {
-       
-        res.innerHTML += `<P> A media está abaixo de 3 o aluno está REPROVADO</P>`       
-    } if (media >= 3 && media < 6) {
-        res.innerHTML += `<P> A media está entre 3 e 6 o aluno está de RECUPERAÇÃO</P>`
-    } if (media > 6) {
-        res.innerHTML += `<P> A media está acima de 6 o aluno está APROVADO</P>`
+        res.innerHTML += `<P> A media está abaixo de 3 o aluno está <mark id="m1" >REPROVADO</mark></P>`       
+    } 
+    if (media >= 3 && media < 6) {
+        res.innerHTML += `<P> A media está entre 3 e 6 o aluno está de <mark id="m2">RECUPERAÇÃO</mark></P>`
+    } 
+    if (media > 6) {
+        res.innerHTML += `<P> A media está acima de 6 o aluno está <mark id="m3">APROVADO</mark></P>`
     }
 
 }

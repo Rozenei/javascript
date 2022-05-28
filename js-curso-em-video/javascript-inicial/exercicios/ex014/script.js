@@ -1,6 +1,7 @@
 
 function interagindo() {
-    let hora = new Date().getHours();
+    let hora = new Date
     let res = document.querySelector("section#resultado")
-    res.innerHTML = `<P> Recebi isso do sistema ${hora}</P>`
+
+    res.innerHTML = `<P> Recebi isso do sistema <mark>${hora}</mark>h</P>`
 }

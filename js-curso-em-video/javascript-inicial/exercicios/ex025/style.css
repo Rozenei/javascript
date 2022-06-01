@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+
+button {
+    background-color: rgba(0, 128, 0, 0.878);
+    color: white;
+    font-weight: bold;
+    font: 14pt Arial;
+    margin-left: 200px;
+}
+h1, h2 {
+    font-family: "Pacifico", cursive;
+    font-weight: normal;
+}

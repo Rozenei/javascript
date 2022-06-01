@@ -7,13 +7,16 @@ function estacao() {
         case "SETEMBRO":  case "OUTUBRO":  case "NOVEMBRO":  case "DEZEMBRO":
             estacao = "Primavera"
             break
+
         case "DEZEMBRO": case "JANEIRO":  case "FEVEREIRO":  case "MARÇO":
             estacao = "Verão"
             break
-    case "MARÇO": case "ABRIL": case "MAIO": case "JUNIO":
+
+        case "MARÇO": case "ABRIL": case "MAIO": case "JUNIO":
         estacao = "Outono"
         break
-    case "JUNHO": case "JULHO": case "AGOSTO": case "SETEMBRO": 
+        
+        case "JUNHO": case "JULHO": case "AGOSTO": case "SETEMBRO": 
         estacao = "Inverno"
         break
         

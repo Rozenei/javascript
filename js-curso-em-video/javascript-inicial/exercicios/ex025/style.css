@@ -1,13 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
 
-button {
-    background-color: rgba(0, 128, 0, 0.878);
-    color: white;
-    font-weight: bold;
-    font: 14pt Arial;
-    margin-left: 200px;
+body {
+    font: 12pt Arial;
 }
 h1, h2 {
     font-family: "Pacifico", cursive;
     font-weight: normal;
+}
+input[type=number] {
+    font-size: 12pt;
+}
+input[type=submit] {
+    background-color: rgba(0, 128, 0, 0.878);
+    color: white;
+    font: 12pt;
+    padding: 5px;
 }

@@ -6,7 +6,7 @@ function contar() {
     let cont = 10
     while (cont >= 1) {
         saida.innerHTML += `${cont} &#x1F449;`
-        cont--
+        cont --
     }
     saida.innerHTML += `&#x1F3C1;`
 

@@ -7,5 +7,10 @@ section {
     margin: auto;
     text-align: center;
     font-weight: normal;
-    image-rendering: auto;
+    width: 400px;
+}
+div#foto {
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 217, 0, 0.352);
 }

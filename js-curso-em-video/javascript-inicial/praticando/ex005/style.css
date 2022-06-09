@@ -1,0 +1,27 @@
+
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+body {
+    background: rgb(70, 160, 243);
+    font: 12pt Arial;
+}
+header {
+    color: white;
+    text-align: center;
+}
+section {
+    background: white;
+    width: 500px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.549);
+}
+input[type=suimit] {
+    background: rgba(0, 128, 0, 0.648);
+    color: white;
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

@@ -7,7 +7,7 @@ function votar() {
         saida.innerHTML = `O voto é opcional`
     }else if (idade < 16) {
         saida.innerHTML = `Não vota`
-    } else {
+    } else if(idade > ) {
         saida.innerHTML = `O voto é obrigatório`
     }
 }

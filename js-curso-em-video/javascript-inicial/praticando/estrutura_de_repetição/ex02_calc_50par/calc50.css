@@ -1,4 +1,6 @@
 
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+
 body {
     background: rgb(70, 125, 240);
     font: 12pt Arial;
@@ -6,6 +8,9 @@ body {
 header {
     color:  white;
     text-align: center;
+}
+button {
+    background-color: rgba(0, 128, 0, 0.475);
 }
 section {
     background: white;

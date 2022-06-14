@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Voto</title>
+    <link rel="stylesheet" href="voto.css">
 </head>
 <body>
     <header>
@@ -12,16 +13,25 @@
     </header>
 
     <section>
+
         <div>
-            <input type="number" name="idade" id="idad">
-            <label for="number">Idade:</label>
-            <br>
-            <button onclick="votar()">Verificar</button>
+            <p>Idade:
+                <input type="number" name="idade" id="idade">
+            </p>
+            <p>
+                <button onclick="votar()">Verificar</button>
+            </p>
         </div>
+
         <div id="saida">
-            Analizando voto...
+            Aqui vai aparecer o resultado
         </div>
     </section>
+    
+    <br><br>
+    <footer>
+         &copy;Site Voto
+    </footer>
 
     
     <script src="voto.js"></script>

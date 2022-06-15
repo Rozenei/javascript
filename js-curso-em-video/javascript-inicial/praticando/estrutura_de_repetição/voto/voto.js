@@ -1,13 +1,13 @@
 
 function votar() {
-    let idad = document.getElementById("idade")
+    let idade = document.getElementById("idade")
     let saida = document.getElementById("saida")
   
     if (idade.value.length == 0) {
          alert("[ERRO]! Verifique os dados e tente novamente")
     }else {
         saida.innerHTML = `Analizando voto...`
-        let = idade = Number(idad.value)
+        let idade = Number(idade.value)
     }
      if (idade > 15 && idade < 18 || idade > 70) {
         saida.innerHTML = `Sua idade é ${idade} o voto é opcional`

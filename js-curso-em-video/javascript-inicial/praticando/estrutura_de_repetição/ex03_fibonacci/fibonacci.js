@@ -1,20 +1,24 @@
 
 function fibonacci(){
+    let limit = Number(document.getElementById("num").value)
     let res = document.getElementById("res")
     res.innerHTML = `Sequência de Fibonacci`
-    let x = 0
-    let y = 1
-    let f ;
+    let pen = 0
+    let ult = 1
+    let numf ;
     
-   cont = 3 
-    while(cont < 10) {
-
-        f = y + x
-        x = y
-        y = f
-        cont++ 
-        res.innerHTML += ` ${f} ,  `
-       
+    if (limit <= 2)
+        numf = limit - 1
+    else {
+        cont = 3  
     }
-     
+    while(cont <= limit) {
+
+        numf = ult + pen 
+        pen = ult
+        ult = numf
+        cont++ 
+        res.innerHTML += ` ${numf} , `
+    }
+    
 }

@@ -8,4 +8,5 @@ function capital() {
     let sc = "Florianopolis"
     let rs = "Porto Alegre"
    
+    alert(pr)
 }

@@ -34,16 +34,16 @@ function verificar() {
            if (idade >= 0 && idade < 12){
                img.setAttribute("src","imagem/menina_criança.jpg")
             //criança
-        }else if (idade > 12 && idade <= 29) {
+            }else if (idade > 12 && idade <= 29) {
             img.setAttribute("src", "imagem/mulher18a30.jpg")
             //jovem
-        }else if (idade => 30 && idade <= 50) {
+            }else if (idade => 30 && idade <= 50) {
             img.setAttribute("src", "imagem/mulher30a50.jpg")
             //adulto
-        }else {
+            }else {
             img.setAttribute("src","imagem/mulher60+.jpg")
             //idoso
-        }
+            }
        }
 
        res.innerHTML = `<P> Detectado ${genero} com ${idade} anos </P>`

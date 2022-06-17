@@ -18,7 +18,7 @@ function fibonacci(){
         pen = ult
         ult = numf
         cont++ 
-        res.innerHTML += ` ${numf} , `
+        res.innerHTML += ` ${numf} ,  `
     }
     
 }

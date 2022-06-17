@@ -4,8 +4,8 @@ function capital() {
     res.innerHTML = `Verificando...`
 
     let est = document.getElementsByName("estado")
-
-    if (est[0]) {
-        res.innerHTML = `A capital é Curitiba`
-    }
+    let pr = "Curitiba"
+    let sc = "Florianopolis"
+    let rs = "Porto Alegre"
+   
 }

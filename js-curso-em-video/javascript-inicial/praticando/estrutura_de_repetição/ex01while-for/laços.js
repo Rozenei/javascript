@@ -1,13 +1,17 @@
 
 let img = document.createElement("img")
-img.setAttribute("id", "imagem")
+img.setAttribute("id", "foto")
 
 
 function lacosWhile() {
+    let img = document.createElement("img")
+    img.setAttribute("id", "foto")
     let While = document.getElementById("while")
     let c = 1
+   
     while (c <= 10) {//enquanto c <= 10 faça isso
         While.innerHTML += `<p>Testando laços com <strong>While</strong> </p>`
+         img.setAttribute("src", "imagem/while.PNG")
         c++        
     }   
 }

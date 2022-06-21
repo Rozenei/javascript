@@ -32,3 +32,6 @@ function lacosFor() {
     for (let c = 1; c <= 10; c++)
     For.innerHTML += `<p>Testando laços com <strong>For</strong></p>`
 }
+function imagens() {
+    
+}

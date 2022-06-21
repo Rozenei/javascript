@@ -9,61 +9,64 @@
 </head>
 <body>
     <header>
-        <h1>While, do while e for</h1>
+        <h1>while, do while e for</h1>
     </header>
     <section>
         <div id="while">
-            Laço de repetição com while
-            <input type="button" value="Iniciar" onclick="lacosWhile()">
-            <img src="imagem/while.PNG" alt="Imagem Laços While">
+            <p>
+                Laço de repetição com while <br>
+                <input type="text" name="txt1" id="txt1" placeholder="Dídite aqui o quer que repita"><br>
+                <input type="number" name="num1" id="num1"> <br><br> 
+                <input type="button" value="Iniciar" onclick="lacosWhile()">
+            </p>
         </div>
-        <div>
-            
-        </div>
+       
     </section>
     <br>
     <section>
         <div id="dowhile">
-            Laço de repetição com do while
-            <input type="button" value="Iniciar2" onclick="lacosDoWhile()">  
-            <div id="imagem">
-               <img src="" alt="Imagem do While">
-            </div>
+            <p>
+                Laço de repetição com do while
+                <input type="number" name="num2" id="num2">
+                <input type="button" value="Iniciar2" onclick="lacosDoWhile()">
+            </p>
         </div>
     </section>
     <br>
     <section>
         <div id="for">
-            Laço de repetição com for
-            <input type="button" value="Iniciar" onclick="lacosFor()">
+            <p>
+                Laço de repetição com for
+                <input type="number" name="num3" id="num3">
+                <input type="button" value="Iniciar" onclick="lacosFor()">
+            </p>
         </div>    
     </section>
     <br>
         <section>
-            <p>Escolha um laço de repetição e clique no botão iniciar corespondente</p>
+            Escolha um laço de repetição e clique no botão iniciar corespondente
         </section>
-        <section>
-            <div id="imagens">
-                <p>
-                    Código com <strong>while</strong> <br><br>
-                    <img src="imagem/while.PNG" alt="Laços com while">
+        <br>
+        <section >
+            <div id="res">
+                <h3>Veja o código aqui</h3>
+                <p >
+                    Código com <strong>while</strong> 
+                    <button onclick="imgWhile()">Ver código</button>  <br><br>
                 </p>
-                
-
+            </div>    
+            <div id="res2">
                 <p>
-                    Código com <strong>do while</strong> <br><br>
-                    <img src="imagem/do_while.PNG" alt="Laços com do while">
+                    Código com <strong>do while</strong>
+                    <button onclick="imgDoWhile()">Ver código </button> <br><br>
                 </p>
-                
+            </div>
+            <div id="res3">
                 <p>
                     Código com <strong>for</strong> 
-                    <br><br>
-                    <img src="imagem/for.PNG" alt="Laços com for">
+                    <button onclick="imgFor()">Ver código</button> <br><br>
                 </p>
-                
-
-                <button onclick="imagens()">Ver imagens</button>
-            </div>
+            </div>            
         </section>
     
     <footer>

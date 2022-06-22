@@ -15,6 +15,16 @@ section {
     padding: 15px;
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.566);
 }
+.campo {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.012);
+    margin: auto;
+    padding: 5px;
+}
+.botao {
+   padding: 3px;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.437);
+   
+}
 section  img {
     max-width: 550px;
     width: 100%;

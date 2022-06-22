@@ -12,63 +12,104 @@
         <h1>while, do while e for</h1>
     </header>
     <section>
+        <h3>
+            Laço de repetição com while 
+        </h3>
+        <div>
+            <p>
+                <input class="campo" type="text" name="txt1"  id="txt1" placeholder="Dídite aqui o quer que repita"><br>
+            </p>
+        </div>
         <div id="while">
-            <p>
-                Laço de repetição com while <br>
-                <input type="text" name="txt1" id="txt1" placeholder="Dídite aqui o quer que repita"><br>
-                <input type="number" name="num1" id="num1"> <br><br> 
-                <input type="button" value="Iniciar" onclick="lacosWhile()">
+            <p> 
+                <input class="campo" type="number" name="num1" id="num1" placeholder="Repetir quantas vezes"> <br><br>
+                <input class="botao" type="button" value="Iniciar" onclick="lacosWhile()">
+                <P>Preencha os campos e clique em Iniciar</P>
             </p>
-        </div>
-       
+        </div>  
     </section>
     <br>
     <section>
+        <h3>
+            Laço de repetição com do while 
+        </h3>
+        <div>
+            <p>
+                <input class="campo" type="text" name="txt2" id="txt2" placeholder="Dídite aqui o quer que repita"> 
+            </p>
+        </div>
         <div id="dowhile">
-            <p>
-                Laço de repetição com do while
-                <input type="number" name="num2" id="num2">
-                <input type="button" value="Iniciar2" onclick="lacosDoWhile()">
+            <p>  
+                <input class="campo" type="number" name="num2" id="num2" placeholder="Repetir quantas vezes?"><br><br>
+                <input class="botao" type="button" value="Iniciar" onclick="lacosDoWhile()">
+                <P>Preencha os campos e clique em Iniciar</P>
             </p>
         </div>
     </section>
     <br>
     <section>
-        <div id="for">
+        <h3>
+             Laço de repetição com for 
+        </h3>
+        <div>
             <p>
-                Laço de repetição com for
-                <input type="number" name="num3" id="num3">
-                <input type="button" value="Iniciar" onclick="lacosFor()">
+                <input class="campo" type="text" name="txt3" id="txt3" placeholder="Dídite aqui o quer que repita">
+            </p>
+        </div>
+        <div id="for">
+            <p> 
+                <input class="campo" type="number" name="num3" id="num3" placeholder="Repetir quantas vezes?"><br><br>
+                <input class="botao" type="button" value="Iniciar" onclick="lacosFor()">
+                <P>Preencha os campos e clique em Iniciar</P>
             </p>
         </div>    
     </section>
-    <br>
-        <section>
-            Escolha um laço de repetição e clique no botão iniciar corespondente
-        </section>
         <br>
         <section >
             <div id="res">
                 <h3>Veja o código aqui</h3>
                 <p >
                     Código com <strong>while</strong> 
-                    <button onclick="imgWhile()">Ver código</button>  <br><br>
+                    <button class="botao" onclick="imgWhile()">
+                        Ver código
+                    </button>  <br><br>
                 </p>
             </div>    
             <div id="res2">
                 <p>
                     Código com <strong>do while</strong>
-                    <button onclick="imgDoWhile()">Ver código </button> <br><br>
+                    <button class="botao" onclick="imgDoWhile()">
+                        Ver código 
+                    </button> <br><br>
                 </p>
             </div>
             <div id="res3">
                 <p>
                     Código com <strong>for</strong> 
-                    <button onclick="imgFor()">Ver código</button> <br><br>
+                    <button class="botao" onclick="imgFor()">
+                        Ver código
+                    </button> <br><br>
                 </p>
-            </div>            
+            </div>    
+            <div id="reshtml">
+                <p>
+                    Código <strong>HTML</strong> completo
+                    <button class="botao" onclick="codhtml()">
+                        Ver Código
+                    </button>
+                </p>
+                
+            </div>
+            <div id="rescss">
+                <p>
+                    Código <strong>CSS</strong> completo
+                    <button class="botao" onclick="codcss()">
+                        Ver código
+                    </button>  
+                </p>     
+                 
+            </div>       
         </section>
-    
     <footer>
         <p>
             &copy; Site laços de repetição while, do while e for

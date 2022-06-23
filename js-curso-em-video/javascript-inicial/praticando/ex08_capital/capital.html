@@ -12,43 +12,22 @@
         <h1>Capital</h1>
     </header>
      
-   <p><section>
+   <section>
         <form action="#" method="get"> 
            <label for="estado">Estado:</label>
-           <input type="text" list="estado"  name="estado" id="estado">
-                <datalist id="estado">
-                    <option value="Paraná"> 
-                    <option value="SantaCatarina"> 
-                    <option value="RioGrandeDoSul">
-                </datalist>
-                <input type="submit" onclick="capital()">
-                
-        </form></p>
+            <select name="estado" id="estado">
+                <option value="São Paulo" id="sp">São Paulo</option>
+                <option value="Paraná" id="pr">Paraná</option> 
+                <option value="Santa Catarina" id="sc">Santa Catarina</option>
+                <option value="Rio Grande do Sul" id="rs">Rio Grande do Sul</option>
+            </select>
+            <input type="submit" onclick="capital()">          
+        </form>
         <br>
         <div id="res">
-            Escolha um estado do sul para ver qual é a capital
+            Escolha um estado para saber qual é sua capital
         </div>
-    </section>    
-    <!-- <section>   
-         <div>
-             <label for="estado">Estado:</label>   
-             <input type="text" placeholder="estado" list="estado">
-                <datalist id="estado" >
-                    <option value="">Estado:</option>
-                    <option value="SC" id="sc">Santa Catarina</option>
-                    <option value="RS" id="rs">Rioa grande do sul </option>
-                    <option value="PR" id="pr">Paraná</option>
-                </datalist>
-           <input type="button" value="Enviar" onclick="capital()">
-        </div> 
-        <br>
-        <div id="res">
-            Escolha um estado do sul para ver qual é a capital
-        </div>
-    </section>-->
-
-    <br><br>
-
+    </section>
     <footer>
         &copy; Site capital do estado
     </footer>

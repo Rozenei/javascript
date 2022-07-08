@@ -1,0 +1,39 @@
+
+body {
+    font: 12pt Arial;
+    background: rgb(71, 166, 255);   
+}
+header {
+    text-align: center;
+    color: white;
+}
+section {
+    background: white;
+    width: 600px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.566);
+}
+.campo {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.442);
+    padding: 5px;
+    border-radius: 4px;
+}
+.botao {
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.437);
+   padding: 3px;
+}
+section  img {
+    max-width: 550px;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+   
+
+}
+footer {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}

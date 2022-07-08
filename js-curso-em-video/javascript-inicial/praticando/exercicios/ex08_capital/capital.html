@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capital</title>
+    <link rel="stylesheet" href="capital.css">
+</head>
+<body>
+    <header>
+        <h1>Capital</h1>
+    </header>
+     
+   <section>
+        <form action="#" method="get"> 
+           <label for="estado">Estado:</label>
+            <select name="estado" id="estado">
+                <option value="São Paulo" id="sp">São Paulo</option>
+                <option value="Paraná" id="pr">Paraná</option> 
+                <option value="Santa Catarina" id="sc">Santa Catarina</option>
+                <option value="Rio Grande do Sul" id="rs">Rio Grande do Sul</option>
+            </select>
+            <input type="submit" onclick="capital()">          
+        </form>
+        <br>
+        <div id="res">
+            Escolha um estado para saber qual é sua capital
+        </div>
+    </section>
+    <footer>
+        &copy; Site capital do estado
+    </footer>
+
+    <script src="capital.js"></script>
+</body>
+</html>
